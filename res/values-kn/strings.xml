@@ -26,7 +26,9 @@
     <string name="installing_update_error">ಸ್ಥಾಪನೆ ದೋಷ</string>
     <string name="finalizing_package">ಘಂಟು ಸ್ಥಾಪನೆಯನ್ನು ಕೊನೆಗೊಳಿಸುತ್ತಿದೆ</string>
     <string name="dialog_battery_low_title">ಅಲ್ಪ ಮಿಂತಿಣಿ</string>
-    <string name="dialog_battery_low_message_pct">ಮಿಂತಿಣಿ ಮಟ್ಟ ತೀರಾ ಕಡಿಮೆಯಿದೆ. ಮುಂದುವರಿಸಲು ನಿಮಗೆ ಕನಿಷ್ಟ <xliff:g id="percent_discharging">%1$d</xliff:g>%% ಚಾರ್ಜ್ ಅಥವಾ ಚಾರ್ಜಿಂಗ್ನಲ್ಲಿ <xliff:g id="percent_charging">%2$d</xliff:g>%% ಬೇಕು.</string>
+    <string name="dialog_battery_low_message_pct">ಮಿಂತಿಣಿ ಮಟ್ಟ ತೀರಾ ಕಡಿಮೆಯಿದೆ. ಮುಂದುವರಿಸಲು ನಿಮಗೆ
+        ಕನಿಷ್ಟ <xliff:g id="percent_discharging">%1$d</xliff:g>%% ಚಾರ್ಜ್ ಅಥವಾ ಚಾರ್ಜಿಂಗ್ನಲ್ಲಿ <xliff:g
+            id="percent_charging">%2$d</xliff:g>%% ಬೇಕು.</string>
     <string name="menu_auto_updates_check">ಸ್ವಯಂ ನವೀಕರಣ ಪರಿಶೀಲನೆ</string>
     <string name="menu_auto_updates_check_interval_daily">ದಿನಕ್ಕೊಮ್ಮೆ</string>
     <string name="menu_auto_updates_check_interval_weekly">ವಾರಕ್ಕೊಮ್ಮೆ</string>
@@ -36,12 +38,19 @@
     <string name="menu_delete_update">ಅಳಿಸು</string>
     <string name="menu_copy_url">URL ನಕಲಿಸು</string>
     <string name="menu_export_update">ನವೀಕರಿಣ ನಿರ್ಯಾತ</string>
-    <string name="menu_show_changelog">ಬದಲಾವಣೆಗಳನ್ನು	ತೋರಿಸು</string>
+    <string name="menu_show_changelog">ಬದಲಾವಣೆಗಳನ್ನು ತೋರಿಸು</string>
     <string name="menu_ab_perf_mode">ನವೀಕರಣಕ್ಕೆ ಆದ್ಯತೆ ಕೊಡು</string>
     <string name="snack_download_verified">ಇಳಿಸುವಿಕೆ ಪೂರ್ಣಗೊಂಡಿದೆ.</string>
-    <string name="header_last_updates_check">ಕೊನೆಯ ಪರಿಶೀಲನೆ: <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
-    <string name="list_build_version">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
-    <string name="list_build_version_date">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="header_last_updates_check">ಕೊನೆಯ ಪರಿಶೀಲನೆ: <xliff:g id="date"
+            example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>
+        )</string>
+    <string name="list_build_version">
+        <xliff:g id="romname" example="PE+">%1$s</xliff:g>
+        <xliff:g id="version" example="14.1">%2$s</xliff:g>
+    </string>
+    <string name="list_build_version_date">%3$s <xliff:g id="version" example="14.1">%1$s</xliff:g>
+        - <xliff:g
+            id="date" example="July 11, 2017">%2$s</xliff:g></string>
     <string name="list_verifying_update">ನವೀಕರಣ ಪರಿಶೀಲಿಸುತ್ತಿದೆ</string>
     <string name="action_download">ಇಳಿಸು</string>
     <string name="action_install">ಸ್ಥಾಪಿಸು</string>
@@ -69,7 +78,8 @@
         <item quantity="other"><xliff:g id="count">%d</xliff:g> ಗಂಟೆ ಬಾಕಿ</item>
     </plurals>
     <string name="update_on_mobile_data_title">ಎಚ್ಚರಿಕೆ</string>
-    <string name="update_on_mobile_data_message">ನೀವು ಮೊಬೈಲ್ ದತ್ತಾಂಶವನ್ನು ಹೆಚ್ಚು ಬಳಕೆ ಉಂಟುಮಾಡುವ ನವೀಕರಣ ಘಂಟನ್ನು ಇಳಿಸ ಹೊರಟಿರುವಿರಿ. ಮುಂದುವರಿಸುವುದೇ?</string>
+    <string name="update_on_mobile_data_message">ನೀವು ಮೊಬೈಲ್ ದತ್ತಾಂಶವನ್ನು ಹೆಚ್ಚು ಬಳಕೆ ಉಂಟುಮಾಡುವ
+        ನವೀಕರಣ ಘಂಟನ್ನು ಇಳಿಸ ಹೊರಟಿರುವಿರಿ. ಮುಂದುವರಿಸುವುದೇ?</string>
     <string name="checkbox_mobile_data_warning">ಪುನಃ ತೋರಿಸದಿರು</string>
     <string name="export_channel_title">ನಿರ್ಯಾತ ಪೂರ್ಣತೆ</string>
     <string name="ongoing_channel_title">ಪ್ರಗತಿಯಲ್ಲಿರುವ ಕೆಳಭರಿತಗಳು</string>

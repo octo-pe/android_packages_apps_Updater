@@ -38,7 +38,9 @@
     <string name="preparing_ota_first_boot">Ag ullachadh a’ chiad tòiseachaidh</string>
     <string name="dialog_prepare_zip_message">Ullachadh an ùrachaidh</string>
     <string name="dialog_battery_low_title">Bataraidh fann</string>
-    <string name="dialog_battery_low_message_pct">Tha am bataraidh ro fhann, feumaidh tu co-dhiù <xliff:g id="percent_discharging">%1$d</xliff:g>%% dhen bhataraidh mus lean thu air adhart no <xliff:g id="percent_charging">%2$d</xliff:g>%% fhad ’s a bhios tu ’ga theàirrdseadh.</string>
+    <string name="dialog_battery_low_message_pct">Tha am bataraidh ro fhann, feumaidh tu co-dhiù <xliff:g
+            id="percent_discharging">%1$d</xliff:g>%% dhen bhataraidh mus lean thu air adhart no <xliff:g
+            id="percent_charging">%2$d</xliff:g>%% fhad ’s a bhios tu ’ga theàirrdseadh.</string>
     <string name="reboot">Dèan ath-thòiseachadh</string>
     <string name="menu_refresh">Ath-nuadhaich</string>
     <string name="menu_preferences">Roghainnean</string>
@@ -54,21 +56,34 @@
     <string name="menu_show_changelog">Seall loga nan atharraichean</string>
     <string name="menu_ab_perf_mode">Cuir prìomhachas air pròiseas an ùrachaidh</string>
     <string name="menu_update_recovery">Ùraich an t-aiseag</string>
-    <string name="toast_forced_update_recovery">Cha ghabh ùrachadh air aiseag Lineage a chur à comas air an uidheam seo.</string>
+    <string name="toast_forced_update_recovery">Cha ghabh ùrachadh air aiseag Lineage a chur à comas
+        air an uidheam seo.</string>
     <string name="snack_updates_found">Chaidh ùrachadh a lorg</string>
     <string name="snack_no_updates_found">Cha deach ùrachadh a lorg</string>
-    <string name="snack_updates_check_failed">Cha b’ urrainn dhuinn sùil a thoirt airson ùrachaidhean. Thoir sùil air a’ cheangal agad ris an eadar-lìon is feuch ris a-rithist an ceann greis.</string>
-    <string name="snack_download_failed">Dh’fhàillig an luchdadh a-nuas. Thoir sùil air a’ cheangal ris an eadar-lìon agad is feuch ris a-rithist an ceann greis.</string>
+    <string name="snack_updates_check_failed">Cha b’ urrainn dhuinn sùil a thoirt airson
+        ùrachaidhean. Thoir sùil air a’ cheangal agad ris an eadar-lìon is feuch ris a-rithist an
+        ceann greis.</string>
+    <string name="snack_download_failed">Dh’fhàillig an luchdadh a-nuas. Thoir sùil air a’ cheangal
+        ris an eadar-lìon agad is feuch ris a-rithist an ceann greis.</string>
     <string name="snack_download_verification_failed">Dh’fhàillig le dearbhadh an ùrachaidh.</string>
     <string name="snack_download_verified">Tha an luchdadh a-nuas deiseil.</string>
-    <string name="snack_update_not_installable">Chan urrainn dhut an t-ùrachadh seo a’ stàladh air an togail làithreach agad.</string>
-    <string name="header_title_text">LineageOS\n%1$s</string>
+    <string name="snack_update_not_installable">Chan urrainn dhut an t-ùrachadh seo a’ stàladh air
+        an togail làithreach agad.</string>
+    <string name="header_title_text">Updates\n%1\$s</string>
     <string name="header_android_version">Android <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
-    <string name="header_last_updates_check">An sgrùdadh mu dheireadh: <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
-    <string name="list_build_version">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
-    <string name="list_build_version_date">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g> – <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="header_last_updates_check">An sgrùdadh mu dheireadh: <xliff:g id="date"
+            example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>
+        )</string>
+    <string name="list_build_version">
+        <xliff:g id="romname" example="PE+">%1$s</xliff:g>
+        <xliff:g id="version" example="14.1">%2$s</xliff:g>
+    </string>
+    <string name="list_build_version_date">%3$s <xliff:g id="version" example="14.1">%1$s</xliff:g>
+        – <xliff:g
+            id="date" example="July 11, 2017">%2$s</xliff:g></string>
     <string name="list_verifying_update">A’ dearbhadh an ùrachaidh</string>
-    <string name="list_no_updates">Cha deach ùrachadh a lorg. Airson sùil a thoirt airson ùrachaidhean a làimh, cleachd am putan “Ath-nuadhaich”.</string>
+    <string name="list_no_updates">Cha deach ùrachadh a lorg. Airson sùil a thoirt airson
+        ùrachaidhean a làimh, cleachd am putan “Ath-nuadhaich”.</string>
     <string name="action_download">Luchdaich a-nuas</string>
     <string name="action_pause">Cuir ’na stad</string>
     <string name="action_resume">Lean air</string>
@@ -77,7 +92,8 @@
     <string name="action_delete">Sguab às</string>
     <string name="action_cancel">Sguir dheth</string>
     <string name="confirm_delete_dialog_title">Sguab às am faidhle</string>
-    <string name="confirm_delete_dialog_message">A bheil thu airson faidhle an ùrachaidh a thagh thu a sguabadh às?</string>
+    <string name="confirm_delete_dialog_message">A bheil thu airson faidhle an ùrachaidh a thagh thu
+        a sguabadh às?</string>
     <string name="apply_update_dialog_title">Cuir an t-ùrachadh an sàs</string>
     <string name="cancel_installation_dialog_message">An sguir thu dhen stàladh?</string>
     <string name="label_download_url">Luchdaich a-nuas URL</string>
@@ -105,11 +121,14 @@
         <item quantity="other"><xliff:g id="count">%d</xliff:g> uair a thìde air fhàgail</item>
     </plurals>
     <string name="update_on_mobile_data_title">Rabhadh</string>
-    <string name="update_on_mobile_data_message">Tha thu an impis pacaid ùrachaidh a luchdadh a-nuas le dàta mobile agus caithidh sin tòrr dàta gun teagamh. A bheil thu airson leantainn air adhart?</string>
+    <string name="update_on_mobile_data_message">Tha thu an impis pacaid ùrachaidh a luchdadh a-nuas
+        le dàta mobile agus caithidh sin tòrr dàta gun teagamh. A bheil thu airson leantainn air
+        adhart?</string>
     <string name="checkbox_mobile_data_warning">Na seall seo a-rithist</string>
     <string name="menu_mobile_data_warning">Rabhadh mu dhàta mobile</string>
     <string name="blocked_update_dialog_title">Chaidh an t-ùrachadh a bhacadh</string>
-    <string name="blocked_update_dialog_message">Cha ghabh an t-ùrachadh seo stàladh le aplacaid an ùraicheir. Leugh <xliff:g id="info_url">%1$s</xliff:g> airson barrachd fiosrachaidh.</string>
+    <string name="blocked_update_dialog_message">Cha ghabh an t-ùrachadh seo stàladh le aplacaid an
+        ùraicheir. Leugh <xliff:g id="info_url">%1$s</xliff:g> airson barrachd fiosrachaidh.</string>
     <string name="export_channel_title">Coileanadh an às-phortaidh</string>
     <string name="new_updates_channel_title">Ùrachaidhean</string>
     <string name="ongoing_channel_title">’Ga luchdadh a-nuas</string>

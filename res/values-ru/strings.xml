@@ -38,7 +38,9 @@
     <string name="preparing_ota_first_boot">Подготовка к первому запуску</string>
     <string name="dialog_prepare_zip_message">Подготовка обновления</string>
     <string name="dialog_battery_low_title">Низкий заряд батареи</string>
-    <string name="dialog_battery_low_message_pct">Заряд батареи слишком мал. Для продолжения требуется не менее <xliff:g id="percent_discharging">%1$d</xliff:g>%% или более <xliff:g id="percent_charging">%2$d</xliff:g>%% при подключенном зарядном устройстве.</string>
+    <string name="dialog_battery_low_message_pct">Заряд батареи слишком мал. Для продолжения
+        требуется не менее <xliff:g id="percent_discharging">%1$d</xliff:g>%% или более <xliff:g
+            id="percent_charging">%2$d</xliff:g>%% при подключенном зарядном устройстве.</string>
     <string name="reboot">Перезапуск</string>
     <string name="menu_refresh">Обновить</string>
     <string name="menu_preferences">Настройки</string>
@@ -54,23 +56,37 @@
     <string name="menu_show_changelog">Показать журнал изменений</string>
     <string name="menu_ab_perf_mode">Приоритет процесса обновления</string>
     <string name="menu_update_recovery">Обновлять Recovery</string>
-    <string name="toast_forced_update_recovery">Отключить обновления Lineage Recovery на этом устройстве невозможно.</string>
+    <string name="toast_forced_update_recovery">Отключить обновления Recovery на этом
+        устройстве невозможно.</string>
     <string name="snack_updates_found">Доступно обновление</string>
     <string name="snack_no_updates_found">Обновлений не найдено</string>
-    <string name="snack_updates_check_failed">Проверка обновлений не удалась. Проверьте подключение к интернету и повторите попытку.</string>
-    <string name="snack_download_failed">Загрузка не удалась. Проверьте подключение к интернету и повторите попытку.</string>
+    <string name="snack_updates_check_failed">Проверка обновлений не удалась. Проверьте подключение
+        к интернету и повторите попытку.</string>
+    <string name="snack_download_failed">Загрузка не удалась. Проверьте подключение к интернету и
+        повторите попытку.</string>
     <string name="snack_download_verification_failed">Ошибка проверки обновления.</string>
     <string name="snack_download_verified">Загрузка завершена.</string>
-    <string name="snack_update_not_installable">Это обновление не может быть установлено поверх текущей сборки.</string>
-    <string name="header_title_text">LineageOS\n%1$s</string>
+    <string name="snack_update_not_installable">Это обновление не может быть установлено поверх
+        текущей сборки.</string>
+    <string name="header_title_text">Updates\n%1\$s</string>
     <string name="header_android_version">Android <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
-    <string name="header_last_updates_check">Поиск обновлений выполнялся <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> в <xliff:g id="time" example="01:23">%2$s</xliff:g></string>
-    <string name="list_build_version">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
-    <string name="list_build_version_date">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
-    <string name="list_download_progress_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> из <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g></string>
-    <string name="list_download_progress_eta_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> из <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>)</string>
+    <string name="header_last_updates_check">Поиск обновлений выполнялся <xliff:g id="date"
+            example="1 January 1970">%1$s</xliff:g> в <xliff:g id="time" example="01:23">%2$s</xliff:g></string>
+    <string name="list_build_version">
+        <xliff:g id="romname" example="PE+">%1$s</xliff:g>
+        <xliff:g id="version" example="14.1">%2$s</xliff:g>
+    </string>
+    <string name="list_build_version_date">%3$s <xliff:g id="version" example="14.1">%1$s</xliff:g>
+        - <xliff:g
+            id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="list_download_progress_newer"><xliff:g id="filesize_without_unit" example="12.2">
+        %1$s</xliff:g> из <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g></string>
+    <string name="list_download_progress_eta_newer"><xliff:g id="filesize_without_unit"
+            example="12.2">%1$s</xliff:g> из <xliff:g id="filesize_without_unit" example="310 MB">
+        %2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s </xliff:g>)</string>
     <string name="list_verifying_update">Проверка обновлений</string>
-    <string name="list_no_updates">Обновлений не найдено. Чтобы проверить наличие обновлений вручную, используйте кнопку Обновить.</string>
+    <string name="list_no_updates">Обновлений не найдено. Чтобы проверить наличие обновлений
+        вручную, используйте кнопку Обновить.</string>
     <string name="action_download">Скачать</string>
     <string name="action_pause">Приостановить</string>
     <string name="action_resume">Возобновить</string>
@@ -81,8 +97,15 @@
     <string name="confirm_delete_dialog_title">Удалить файл</string>
     <string name="confirm_delete_dialog_message">Удалить выбранный файл обновления?</string>
     <string name="apply_update_dialog_title">Применить обновление</string>
-    <string name="apply_update_dialog_message">Будет выполнена установка <xliff:g id="update_name">%1$s</xliff:g>.\n\nПри нажатии кнопки <xliff:g id="ok">%2$s</xliff:g> устройство будет перезапущено в режиме Recovery для установки новой версии.\n\nПримечание: для использования данной возможности необходим совместимый Recovery. При возникновении ошибки обновление потребуется установить вручную.</string>
-    <string name="apply_update_dialog_message_ab">Будет выполнена установка <xliff:g id="update_name">%1$s</xliff:g>.\n\nПри нажатии кнопки <xliff:g id="ok">%2$s</xliff:g> будет начата установка в фоновом режиме.\n\nПо завершении вам будет предложено перезапустить устройство.</string>
+    <string name="apply_update_dialog_message">Будет выполнена установка <xliff:g id="update_name">
+        %1$s</xliff:g>.\n\nПри нажатии кнопки <xliff:g id="ok">%2$s</xliff:g> устройство будет
+        перезапущено в режиме Recovery для установки новой версии.\n\nПримечание: для использования
+        данной возможности необходим совместимый Recovery. При возникновении ошибки обновление
+        потребуется установить вручную.</string>
+    <string name="apply_update_dialog_message_ab">Будет выполнена установка <xliff:g
+            id="update_name">%1$s</xliff:g>.\n\nПри нажатии кнопки <xliff:g id="ok">%2$s</xliff:g>
+        будет начата установка в фоновом режиме.\n\nПо завершении вам будет предложено перезапустить
+        устройство.</string>
     <string name="cancel_installation_dialog_message">Отменить установку?</string>
     <string name="label_download_url">Ссылка для скачивания</string>
     <string name="toast_download_url_copied">URL скопирован в буфер обмена</string>
@@ -110,16 +133,21 @@
         <item quantity="other">осталось <xliff:g id="count">%d</xliff:g> часов</item>
     </plurals>
     <string name="update_on_mobile_data_title">Предупреждение</string>
-    <string name="update_on_mobile_data_message">Скачивание обновления по мобильной сети расходует большой объем трафика и может привести к непредвиденным расходам. Продолжить?</string>
+    <string name="update_on_mobile_data_message">Скачивание обновления по мобильной сети расходует
+        большой объем трафика и может привести к непредвиденным расходам. Продолжить?</string>
     <string name="checkbox_mobile_data_warning">Не показывать это сообщение</string>
     <string name="menu_mobile_data_warning">Предупрежд. о моб. данных</string>
     <string name="blocked_update_dialog_title">Обновление заблокировано</string>
-    <string name="blocked_update_dialog_message">Эту сборку нельзя установить с помощью встроенной системы обновления. Для получения дополнительной информации ознакомьтесь с <xliff:g id="info_url">%1$s</xliff:g>.</string>
+    <string name="blocked_update_dialog_message">Эту сборку нельзя установить с помощью встроенной
+        системы обновления. Для получения дополнительной информации ознакомьтесь с <xliff:g
+            id="info_url">%1$s</xliff:g>.</string>
     <string name="export_channel_title">Экспорт завершен</string>
     <string name="new_updates_channel_title">Доступны обновления</string>
     <string name="ongoing_channel_title">Текущие загрузки</string>
     <string name="update_failed_channel_title">Сбой обновления</string>
     <string name="info_dialog_title">Знаете ли вы?</string>
-    <string name="info_dialog_message">Обновления LineageOS представляют собой полные установочные пакеты. Это означает, что вы всегда можете установить только последнее обновление, даже если вы пропустили некоторые из них!</string>
+    <string name="info_dialog_message">Обновления представляют собой полные установочные
+        пакеты. Это означает, что вы всегда можете установить только последнее обновление, даже если
+        вы пропустили некоторые из них!</string>
     <string name="info_dialog_ok">Спасибо за информацию!</string>
 </resources>

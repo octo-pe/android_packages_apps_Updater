@@ -38,7 +38,10 @@
     <string name="preparing_ota_first_boot">Préparation pour le premier démarrage</string>
     <string name="dialog_prepare_zip_message">Préparation de la mise à jour préliminaire</string>
     <string name="dialog_battery_low_title">Batterie faible</string>
-    <string name="dialog_battery_low_message_pct">Le niveau de batterie est trop faible. Pour continuer, vous devez avoir au moins <xliff:g id="percent_discharging">%1$d</xliff:g> %% de batterie restante, ou <xliff:g id="percent_charging">%2$d</xliff:g> %% si l\'appareil est en charge.</string>
+    <string name="dialog_battery_low_message_pct">Le niveau de batterie est trop faible. Pour
+        continuer, vous devez avoir au moins <xliff:g id="percent_discharging">%1$d</xliff:g> %% de
+        batterie restante, ou <xliff:g id="percent_charging">%2$d</xliff:g> %% si l\'appareil est en
+        charge.</string>
     <string name="reboot">Redémarrer</string>
     <string name="menu_refresh">Actualiser</string>
     <string name="menu_preferences">Préférences</string>
@@ -54,23 +57,38 @@
     <string name="menu_show_changelog">Afficher l\'historique des modifications</string>
     <string name="menu_ab_perf_mode">Privilégier le processus de mise à jour</string>
     <string name="menu_update_recovery">Mettre à jour la récupération</string>
-    <string name="toast_forced_update_recovery">Il est impossible de désactiver les mises à jour de la récupération de Lineage sur cet appareil.</string>
+    <string name="toast_forced_update_recovery">Il est impossible de désactiver les mises à jour de
+        la récupération de Lineage sur cet appareil.</string>
     <string name="snack_updates_found">Nouvelles mises à jour disponibles</string>
     <string name="snack_no_updates_found">Aucune nouvelle mise à jour disponible</string>
-    <string name="snack_updates_check_failed">La vérification de nouvelles mises à jour a échoué. Vérifiez votre connexion internet et réessayez ultérieurement.</string>
-    <string name="snack_download_failed">Le téléchargement a échoué. Vérifiez votre connexion internet et réessayez ultérieurement.</string>
+    <string name="snack_updates_check_failed">La vérification de nouvelles mises à jour a échoué.
+        Vérifiez votre connexion internet et réessayez ultérieurement.</string>
+    <string name="snack_download_failed">Le téléchargement a échoué. Vérifiez votre connexion
+        internet et réessayez ultérieurement.</string>
     <string name="snack_download_verification_failed">La vérification de la mise à jour a échoué.</string>
     <string name="snack_download_verified">Téléchargement terminé.</string>
-    <string name="snack_update_not_installable">Cette mise à jour ne peut pas être installée sur votre version actuelle.</string>
-    <string name="header_title_text">LineageOS\n%1$s</string>
+    <string name="snack_update_not_installable">Cette mise à jour ne peut pas être installée sur
+        votre version actuelle.</string>
+    <string name="header_title_text">Updates\n%1\$s</string>
     <string name="header_android_version">Android <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
-    <string name="header_last_updates_check">Dernière vérification : <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
-    <string name="list_build_version">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
-    <string name="list_build_version_date">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
-    <string name="list_download_progress_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> sur <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g></string>
-    <string name="list_download_progress_eta_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> sur <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>)</string>
+    <string name="header_last_updates_check">Dernière vérification : <xliff:g id="date"
+            example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>
+        )</string>
+    <string name="list_build_version">
+        <xliff:g id="romname" example="PE+">%1$s</xliff:g>
+        <xliff:g id="version" example="14.1">%2$s</xliff:g>
+    </string>
+    <string name="list_build_version_date">%3$s <xliff:g id="version" example="14.1">%1$s</xliff:g>
+        - <xliff:g
+            id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="list_download_progress_newer"><xliff:g id="filesize_without_unit" example="12.2">
+        %1$s</xliff:g> sur <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g></string>
+    <string name="list_download_progress_eta_newer"><xliff:g id="filesize_without_unit"
+            example="12.2">%1$s</xliff:g> sur <xliff:g id="filesize_without_unit" example="310 MB">
+        %2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s </xliff:g>)</string>
     <string name="list_verifying_update">Vérification de la mise à jour en cours</string>
-    <string name="list_no_updates">Aucune nouvelle mise à jour trouvée. Pour vérifier manuellement la présence de mises à jour, utiliser le bouton Actualiser.</string>
+    <string name="list_no_updates">Aucune nouvelle mise à jour trouvée. Pour vérifier manuellement
+        la présence de mises à jour, utiliser le bouton Actualiser.</string>
     <string name="action_download">Télécharger</string>
     <string name="action_pause">Mettre en pause</string>
     <string name="action_resume">Reprendre</string>
@@ -81,8 +99,15 @@
     <string name="confirm_delete_dialog_title">Supprimer le fichier</string>
     <string name="confirm_delete_dialog_message">Supprimer le fichier de mise à jour sélectionné ?</string>
     <string name="apply_update_dialog_title">Appliquer la mise à jour</string>
-    <string name="apply_update_dialog_message">Vous êtes sur le point d\'installer <xliff:g id="update_name">%1$s</xliff:g>.\n\nSi vous appuyez sur <xliff:g id="ok">%2$s</xliff:g>, votre appareil redémarrera automatiquement en mode récupération pour installer la mise à jour.\n\nRemarque : Cette opération nécessite un système de récupération compatible, sans quoi les mises à jour devront être installées manuellement.</string>
-    <string name="apply_update_dialog_message_ab">Vous êtes sur le point d\'installer <xliff:g id="update_name">%1$s</xliff:g>.\n\nSi vous appuyez sur <xliff:g id="ok">%2$s</xliff:g>, l’appareil commencera l\'installation en arrière-plan.\n\nUne fois celle-ci terminée, il vous sera demandé de redémarrer.</string>
+    <string name="apply_update_dialog_message">Vous êtes sur le point d\'installer <xliff:g
+            id="update_name">%1$s</xliff:g>.\n\nSi vous appuyez sur <xliff:g id="ok">%2$s</xliff:g>,
+        votre appareil redémarrera automatiquement en mode récupération pour installer la mise à
+        jour.\n\nRemarque : Cette opération nécessite un système de récupération compatible, sans
+        quoi les mises à jour devront être installées manuellement.</string>
+    <string name="apply_update_dialog_message_ab">Vous êtes sur le point d\'installer <xliff:g
+            id="update_name">%1$s</xliff:g>.\n\nSi vous appuyez sur <xliff:g id="ok">%2$s</xliff:g>,
+        l’appareil commencera l\'installation en arrière-plan.\n\nUne fois celle-ci terminée, il
+        vous sera demandé de redémarrer.</string>
     <string name="cancel_installation_dialog_message">Annuler l\'installation ?</string>
     <string name="label_download_url">URL de téléchargement</string>
     <string name="toast_download_url_copied">URL copiée</string>
@@ -104,16 +129,22 @@
         <item quantity="other">temps restant : <xliff:g id="count">%d</xliff:g> heures</item>
     </plurals>
     <string name="update_on_mobile_data_title">Avertissement</string>
-    <string name="update_on_mobile_data_message">Vous êtes sur le point de télécharger un paquet de mise à jour via les données mobiles qui pourrait représenter un volume de données important. Voulez-vous tout de même procéder au téléchargement ?</string>
+    <string name="update_on_mobile_data_message">Vous êtes sur le point de télécharger un paquet de
+        mise à jour via les données mobiles qui pourrait représenter un volume de données important.
+        Voulez-vous tout de même procéder au téléchargement ?</string>
     <string name="checkbox_mobile_data_warning">Ne plus afficher</string>
     <string name="menu_mobile_data_warning">Avertissement d\'usage des données mobiles</string>
     <string name="blocked_update_dialog_title">Mise à jour bloquée</string>
-    <string name="blocked_update_dialog_message">Cette mise à jour ne peut pas être installée en utilisant le gestionnaire de mise à jour.  Veuillez lire <xliff:g id="info_url">%1$s</xliff:g> pour plus d’information.</string>
+    <string name="blocked_update_dialog_message">Cette mise à jour ne peut pas être installée en
+        utilisant le gestionnaire de mise à jour. Veuillez lire <xliff:g id="info_url">%1$s</xliff:g>
+        pour plus d’information.</string>
     <string name="export_channel_title">Fin de l\'exportation</string>
     <string name="new_updates_channel_title">Nouvelles mises à jour</string>
     <string name="ongoing_channel_title">Téléchargements en cours</string>
     <string name="update_failed_channel_title">Échec de la mise à jour</string>
     <string name="info_dialog_title">Le saviez-vous ?</string>
-    <string name="info_dialog_message">Les mises à jour de LineageOS sont des paquets d\'installation complets. Cela signifie que vous ne pouvez installer que la dernière mise à jour, même si vous en avez ignorées entre temps !</string>
+    <string name="info_dialog_message">Les mises à jour de sont des paquets
+        d\'installation complets. Cela signifie que vous ne pouvez installer que la dernière mise à
+        jour, même si vous en avez ignorées entre temps !</string>
     <string name="info_dialog_ok">Merci pour l\'information !</string>
 </resources>

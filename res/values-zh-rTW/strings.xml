@@ -38,7 +38,8 @@
     <string name="preparing_ota_first_boot">正在準備第一次啟動</string>
     <string name="dialog_prepare_zip_message">正在準備更新</string>
     <string name="dialog_battery_low_title">電量不足</string>
-    <string name="dialog_battery_low_message_pct">電池電量過低，您需要至少 <xliff:g id="percent_discharging">%1$d</xliff:g>%% 的電量才能繼續；如果正在充電，則需要 <xliff:g id="percent_charging">%2$d</xliff:g>%% 的電量才能繼續。</string>
+    <string name="dialog_battery_low_message_pct">電池電量過低，您需要至少 <xliff:g id="percent_discharging">
+        %1$d</xliff:g>%% 的電量才能繼續；如果正在充電，則需要 <xliff:g id="percent_charging">%2$d</xliff:g>%% 的電量才能繼續。</string>
     <string name="reboot">重新啟動</string>
     <string name="menu_refresh">重新整理</string>
     <string name="menu_preferences">使用偏好</string>
@@ -54,7 +55,7 @@
     <string name="menu_show_changelog">顯示更新日誌</string>
     <string name="menu_ab_perf_mode">優先更新過程</string>
     <string name="menu_update_recovery">更新 Recovery</string>
-    <string name="toast_forced_update_recovery">無法停用此裝置上的 Lineage Recovery 更新。</string>
+    <string name="toast_forced_update_recovery">無法停用此裝置上的 Recovery 更新。</string>
     <string name="snack_updates_found">發現新的更新</string>
     <string name="snack_no_updates_found">沒有找到新的更新</string>
     <string name="snack_updates_check_failed">更新檢查失敗。請檢查您的網路連線並稍後重試。</string>
@@ -62,11 +63,17 @@
     <string name="snack_download_verification_failed">更新驗證失敗。</string>
     <string name="snack_download_verified">下載已完成。</string>
     <string name="snack_update_not_installable">此更新無法安裝在目前版本上。</string>
-    <string name="header_title_text">LineageOS\n%1$s</string>
+    <string name="header_title_text">Updates\n%1\$s</string>
     <string name="header_android_version">Android <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
-    <string name="header_last_updates_check">上次檢查：<xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
-    <string name="list_build_version">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
-    <string name="list_build_version_date">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g>-<xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="header_last_updates_check">上次檢查：<xliff:g id="date" example="1 January 1970">%1$s</xliff:g>
+        (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
+    <string name="list_build_version">
+        <xliff:g id="romname" example="PE+">%1$s</xliff:g>
+        <xliff:g id="version" example="14.1">%1$s</xliff:g>
+    </string>
+    <string name="list_build_version_date">%3$s <xliff:g id="version" example="14.1">%1$s</xliff:g>
+        -<xliff:g
+            id="date" example="July 11, 2017">%2$s</xliff:g></string>
     <string name="list_verifying_update">正在驗證更新</string>
     <string name="list_no_updates">沒有找到新的更新。若要手動檢查新的更新，請使用「重新整理」按鍵。</string>
     <string name="action_download">下載</string>
@@ -100,7 +107,8 @@
     <string name="checkbox_mobile_data_warning">不再顯示</string>
     <string name="menu_mobile_data_warning">行動數據警告</string>
     <string name="blocked_update_dialog_title">更新已被封鎖</string>
-    <string name="blocked_update_dialog_message">無法使用更新應用程式安裝此更新。 有關詳細資訊，請閱讀 <xliff:g id="info_url">%1$s </xliff:g> 。</string>
+    <string name="blocked_update_dialog_message">無法使用更新應用程式安裝此更新。 有關詳細資訊，請閱讀 <xliff:g id="info_url">
+        %1$s </xliff:g> 。</string>
     <string name="export_channel_title">匯出完成</string>
     <string name="new_updates_channel_title">有新的更新</string>
     <string name="ongoing_channel_title">目前下載</string>

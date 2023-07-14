@@ -11,3 +11,4 @@
 /system_libs/*.jar
 /keystore.properties
 *.jks
+*.hprof

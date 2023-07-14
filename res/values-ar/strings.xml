@@ -38,7 +38,9 @@
     <string name="preparing_ota_first_boot">جارٍ الإعداد للتشغيل الأول</string>
     <string name="dialog_prepare_zip_message">التجهيز للتحديث الأولي</string>
     <string name="dialog_battery_low_title">البطارية منخفضة</string>
-    <string name="dialog_battery_low_message_pct">مستوى شحن البطارية منخفض للغاية؛ وتحتاج على الأقل <xliff:g id="percent_discharging">%1$d</xliff:g>%% من البطارية للمتابعة، <xliff:g id="percent_charging">%2$d</xliff:g>%% في حالة الشحن.</string>
+    <string name="dialog_battery_low_message_pct">مستوى شحن البطارية منخفض للغاية؛ وتحتاج على الأقل <xliff:g
+            id="percent_discharging">%1$d</xliff:g>%% من البطارية للمتابعة، <xliff:g
+            id="percent_charging">%2$d</xliff:g>%% في حالة الشحن.</string>
     <string name="reboot">إعادة التشغيل</string>
     <string name="menu_refresh">تحديث</string>
     <string name="menu_preferences">التفضيلات</string>
@@ -54,21 +56,31 @@
     <string name="menu_show_changelog">إظهار التغييرات</string>
     <string name="menu_ab_perf_mode">إعطاء الأولوية لعملية التحديث</string>
     <string name="menu_update_recovery">تحديث وضع الاسترداد</string>
-    <string name="toast_forced_update_recovery">من المستحيل تعطيل تحديثات Lineage Recovery على هذا الجهاز</string>
+    <string name="toast_forced_update_recovery">من المستحيل تعطيل تحديثات Recovery على هذا
+        الجهاز</string>
     <string name="snack_updates_found">تم العثور على تحديثات جديدة</string>
     <string name="snack_no_updates_found">لا توجد تحديثات جديدة</string>
-    <string name="snack_updates_check_failed">فشل التحقق من وجود تحديث. برجاء التحقق من اتصالك بالإنترنت وإعادة المحاولة لاحقًا.</string>
-    <string name="snack_download_failed">فشل التنزيل. برجاء التحقق من اتصالك بالإنترنت وإعادة المحاولة لاحقًا.</string>
+    <string name="snack_updates_check_failed">فشل التحقق من وجود تحديث. برجاء التحقق من اتصالك
+        بالإنترنت وإعادة المحاولة لاحقًا.</string>
+    <string name="snack_download_failed">فشل التنزيل. برجاء التحقق من اتصالك بالإنترنت وإعادة
+        المحاولة لاحقًا.</string>
     <string name="snack_download_verification_failed">فشل التحقق من التحديث.</string>
     <string name="snack_download_verified">اكتمل التنزيل.</string>
     <string name="snack_update_not_installable">لا يمكن تثبيت هذا التحديث على الاصدار الحالي.</string>
-    <string name="header_title_text">LineageOS\n%1$s</string>
+    <string name="header_title_text">Updates\n%1\$s</string>
     <string name="header_android_version">أندرويد <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
-    <string name="header_last_updates_check">آخر تحقق: <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
-    <string name="list_build_version">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
-    <string name="list_build_version_date">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="header_last_updates_check">آخر تحقق: <xliff:g id="date" example="1 January 1970">
+        %1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
+    <string name="list_build_version">
+        <xliff:g id="romname" example="PE+">%1$s</xliff:g>
+        <xliff:g id="version" example="14.1">%2$s</xliff:g>
+    </string>
+    <string name="list_build_version_date">%3$s <xliff:g id="version" example="14.1">%1$s</xliff:g>
+        - <xliff:g
+            id="date" example="July 11, 2017">%2$s</xliff:g></string>
     <string name="list_verifying_update">جارٍ التحقق من التحديث</string>
-    <string name="list_no_updates">لا توجد تحديثات جديدة. للبحث عن تحديثات جديدة يدويًا، استخدم الزر تحديث.</string>
+    <string name="list_no_updates">لا توجد تحديثات جديدة. للبحث عن تحديثات جديدة يدويًا، استخدم الزر
+        تحديث.</string>
     <string name="action_download">تنزيل</string>
     <string name="action_pause">إيقاف مؤقت</string>
     <string name="action_resume">استئناف</string>
@@ -111,11 +123,13 @@
         <item quantity="other"><xliff:g id="count">%d</xliff:g> ساعات متبقية</item>
     </plurals>
     <string name="update_on_mobile_data_title">تنبيه</string>
-    <string name="update_on_mobile_data_message">أنت على وشك أن تقوم بتنزيل حزمة تحديث باستخدام البيانات مما سيتسبب في استخدام عالي للبيانات. هل تريد المتابعة؟</string>
+    <string name="update_on_mobile_data_message">أنت على وشك أن تقوم بتنزيل حزمة تحديث باستخدام
+        البيانات مما سيتسبب في استخدام عالي للبيانات. هل تريد المتابعة؟</string>
     <string name="checkbox_mobile_data_warning">لا تظهر هذا مجدداً</string>
     <string name="menu_mobile_data_warning">تحذير البيانات</string>
     <string name="blocked_update_dialog_title">التحديث محظور</string>
-    <string name="blocked_update_dialog_message">لا يمكن تثبيت التحديث باستخدام تطبيق المُحدث. برجاء قراءة <xliff:g id="info_url">%1$s </xliff:g> للحصول على مزيد من المعلومات.</string>
+    <string name="blocked_update_dialog_message">لا يمكن تثبيت التحديث باستخدام تطبيق المُحدث. برجاء
+        قراءة <xliff:g id="info_url">%1$s </xliff:g> للحصول على مزيد من المعلومات.</string>
     <string name="export_channel_title">اكتمال التصدير</string>
     <string name="new_updates_channel_title">تحديثات جديدة</string>
     <string name="ongoing_channel_title">التنزيلات الحالية</string>

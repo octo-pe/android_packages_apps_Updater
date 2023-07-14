@@ -38,7 +38,9 @@
     <string name="preparing_ota_first_boot">Lehen abiorako prestatzen</string>
     <string name="dialog_prepare_zip_message">Aldez aurreko eguneraketaren prestaketa</string>
     <string name="dialog_battery_low_title">Bateria gutxi</string>
-    <string name="dialog_battery_low_message_pct">Bateria maila baxuegia da, gutxienez bateriaren %% <xliff:g id="percent_discharging">%1$d</xliff:g> behar da jarraitzeko, %% <xliff:g id="percent_charging">%2$d</xliff:g> kargatzen badago.</string>
+    <string name="dialog_battery_low_message_pct">Bateria maila baxuegia da, gutxienez bateriaren %% <xliff:g
+            id="percent_discharging">%1$d</xliff:g> behar da jarraitzeko, %% <xliff:g
+            id="percent_charging">%2$d</xliff:g> kargatzen badago.</string>
     <string name="reboot">Berrabiarazi</string>
     <string name="menu_refresh">Freskatu</string>
     <string name="menu_preferences">Hobespenak</string>
@@ -55,17 +57,27 @@
     <string name="menu_ab_perf_mode">Eman lehentasuna eguneraketa prozesuari</string>
     <string name="snack_updates_found">Eguneraketa berriak aurkitu dira</string>
     <string name="snack_no_updates_found">Ez da eguneraketa berririk aurkitu</string>
-    <string name="snack_updates_check_failed">Eguneraketa bilaketak huts egin du. Interneterako konexioa egiaztatu eta berriro saiatu, mesedez.</string>
+    <string name="snack_updates_check_failed">Eguneraketa bilaketak huts egin du. Interneterako
+        konexioa egiaztatu eta berriro saiatu, mesedez.</string>
     <string name="snack_download_verification_failed">Eguneraketaren egiaztaketak huts egin du.</string>
     <string name="snack_download_verified">Deskarga osatuta.</string>
-    <string name="snack_update_not_installable">Eguneraketa hau ezin da instalatu uneko konpilazioaren gainean.</string>
-    <string name="header_title_text">LineageOS\n%1$s</string>
+    <string name="snack_update_not_installable">Eguneraketa hau ezin da instalatu uneko
+        konpilazioaren gainean.</string>
+    <string name="header_title_text">Updates\n%1\$s</string>
     <string name="header_android_version">Android <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
-    <string name="header_last_updates_check">Azken egiaztaketa: <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
-    <string name="list_build_version">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
-    <string name="list_build_version_date">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="header_last_updates_check">Azken egiaztaketa: <xliff:g id="date"
+            example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>
+        )</string>
+    <string name="list_build_version">
+        <xliff:g id="romname" example="PE+">%1$s</xliff:g>
+        <xliff:g id="version" example="14.1">%2$s</xliff:g>
+    </string>
+    <string name="list_build_version_date">%3$s <xliff:g id="version" example="14.1">%1$s</xliff:g>
+        - <xliff:g
+            id="date" example="July 11, 2017">%2$s</xliff:g></string>
     <string name="list_verifying_update">Eguneraketa egiaztatzen</string>
-    <string name="list_no_updates">Ez da eguneraketa berririk aurkitu. Eguneraketak eskuz egiaztatzeko, erabili freskatze botoia.</string>
+    <string name="list_no_updates">Ez da eguneraketa berririk aurkitu. Eguneraketak eskuz
+        egiaztatzeko, erabili freskatze botoia.</string>
     <string name="action_download">Deskargatu</string>
     <string name="action_pause">Pausatu</string>
     <string name="action_resume">Berrekin</string>
@@ -96,11 +108,14 @@
         <item quantity="other"><xliff:g id="count">%d</xliff:g> ordu geratzen dira</item>
     </plurals>
     <string name="update_on_mobile_data_title">Abisua</string>
-    <string name="update_on_mobile_data_message">Eguneratze pakete bat deskargatuko duzu datu mugikorrak erabiliz, honek datuen erabilera handia egingo du. Ziur aurrera jarraitu nahi duzula?</string>
+    <string name="update_on_mobile_data_message">Eguneratze pakete bat deskargatuko duzu datu
+        mugikorrak erabiliz, honek datuen erabilera handia egingo du. Ziur aurrera jarraitu nahi
+        duzula?</string>
     <string name="checkbox_mobile_data_warning">Ez erakutsi berriro</string>
     <string name="menu_mobile_data_warning">Datu mugikorren abisua</string>
     <string name="blocked_update_dialog_title">Eguneraketa blokeatuta</string>
-    <string name="blocked_update_dialog_message">Eguneraketa hau ezin da eguneratze-aplikazioarekin instalatu. Irakurri <xliff:g id="info_url">%1$s</xliff:g> informazio gehiagorako.</string>
+    <string name="blocked_update_dialog_message">Eguneraketa hau ezin da eguneratze-aplikazioarekin
+        instalatu. Irakurri <xliff:g id="info_url">%1$s</xliff:g> informazio gehiagorako.</string>
     <string name="export_channel_title">Esportazioaren osaketa</string>
     <string name="new_updates_channel_title">Eguneraketa berriak</string>
     <string name="ongoing_channel_title">Deskargak abian</string>
